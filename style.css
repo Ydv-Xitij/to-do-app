@@ -51,3 +51,22 @@ footer{
     text-shadow: 1px 0px 10px yellow;
     margin-top: 150px;
 }
+@media (width < 700px){
+    .container{
+        min-width: 300px;
+        min-height: 400px;
+    }
+    .add{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    button{
+        margin: 5px 5px;
+        max-width: 50px;
+    }
+    footer{
+        margin-top: 80px;
+    }
+}
